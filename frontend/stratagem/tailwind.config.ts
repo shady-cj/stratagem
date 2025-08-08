@@ -8,31 +8,31 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        // Bind Tailwind's `font-sans` to the Geist font variable
-        // sans: ['var(--font-geist-sans)', 'sans-serif'],
-        // mono: ['var(--font-geist-mono)', 'monospace'],
-      },
+        fontFamily: {
+            // Bind Tailwind's `font-sans` to the Geist font variable
+            // sans: ['var(--font-geist-sans)', 'sans-serif'],
+            // mono: ['var(--font-geist-mono)', 'monospace'],
+        },
+        backgroundImage: {
+            // extend background
+        },
+        backgroundColor: {
+            // extend background colors
+            primary: "",
+        },
+        colors: {
+            // extend colors
+        },
+        screens: {
+            // extend responsive breakpoints
+        },
+        spacing: {
+            // extend spacing
+        },
+        fontSize: {
+            // extend font sizes
+        }
     },
-    backgroundImage: {
-        // extend background
-    },
-    backgroundColor: {
-        // extend background colors
-    },
-    colors: {
-        // extend colors
-    },
-    screens: {
-        // extend responsive breakpoints
-    },
-    spacing: {
-        // extend spacing
-    },
-    fontSize: {
-        // extend font sizes
-    }
-
   },
   plugins: [],
 };
