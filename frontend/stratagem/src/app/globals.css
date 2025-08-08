@@ -2,7 +2,10 @@
 
 :root {
   --primary: #F0F0F0;
+  --secondary: #324683;
+  --green: #A4D141;
   --text-default:#000000CC;
+  
 
 
 }
@@ -15,9 +18,22 @@
 @theme inline {
   --color-primary: var(--primary);
   --color-text-default: var(--text-default);
+  --color-secondary: var(--secondary);
+  --color-green: var(--green);
   --spacing-home-padding-y: 4rem;
   --spacing-home-padding-x: 5.2rem;
   --font-poppins: var(--font-poppins);
+  --animate-show-more-services: showMoreServices 0.35s ease-in-out;
+
+  @keyframes showMoreServices {
+    from {
+      transform: rotateX(-90deg);
+    }
+    to {
+      transform: rotateX(0deg);
+    }
+  }
+  
 }
 
 @media (prefers-color-scheme: dark) {
