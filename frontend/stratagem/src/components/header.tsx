@@ -48,7 +48,7 @@ export default function Header() {
             </div>
             <nav className={`hidden lg:flex ml-auto`}>
                 <ul className="flex space-x-6">
-                    <li><a href="#" className="text-text-default hover:text-secondary font-medium font-poppins">Home</a></li>
+                    <li><a href="#" className="text-text-default hover:text-secondary hover:text-shadow-md  font-medium font-poppins">Home</a></li>
                     <li><a href="#" className="text-text-default hover:text-secondary font-medium font-poppins">About Us</a></li>
                     {/* <li className="relative perspective-origin-center perspective-midrange" id="service-nav"> */}
                     <li className="relative" id="service-nav">

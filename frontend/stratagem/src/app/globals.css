@@ -48,6 +48,10 @@
   @apply font-poppins text-base font-medium
 }
 
+@utility text-default-normal {
+   @apply font-poppins text-base font-normal
+}
+
 .clip-service-card-info {
   clip-path: circle(0% at 100% 0); 
   opacity: 0.9;

@@ -1,6 +1,4 @@
 import React from 'react'
-import wind from "@/assets/icons/wind.svg"
-import Image from 'next/image'
 import greenEnergyIcon from "@/assets/icons/green-energy-icon.png"
 import greenEnergyEngineeringIcon from "@/assets/icons/green-energy-engineering.png"
 import greenTransportIcon from "@/assets/icons/green-transport.png"
@@ -8,6 +6,7 @@ import facilityManagementIcon from "@/assets/icons/facility-management.png"
 import greenConstructionIcon from "@/assets/icons/green-construction.png"
 import greenProcurementIcon from "@/assets/icons/green-procurement.png"
 import ServiceCard from './helpers/ServiceCard'
+import ServiceWrapper from './helpers/ServiceWrapper'
 
 
 const serviceCardEntries = [
@@ -47,17 +46,7 @@ const serviceCardEntries = [
 
 const Services = () => {
   return (
-    <section className='flex flex-col gap-[3rem]'>
-        <div className='flex justify-center'>
-            <div className='flex flex-col gap-4 items-center'>
-                <Image src={wind} alt="wind"/>
-                <h2 className='font-poppins text-2xl font-medium'>
-                    Our Services
-                </h2>
-                
-            </div>
-            
-        </div>
+    <ServiceWrapper title="Our Services">
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[1.5rem]'>
             {
                 serviceCardEntries.map((entry) => <ServiceCard key={entry.title} desc={entry.desc} title={entry.title} icon={entry.icon} />)
@@ -65,7 +54,7 @@ const Services = () => {
             }
         </div>
       
-    </section>
+    </ServiceWrapper>
   )
 }
 
