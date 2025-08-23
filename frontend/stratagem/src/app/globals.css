@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --primary: #F0F0F0;
+  --primary: white;
   --secondary: #324683;
   --green: #A4D141;
   --text-default:#000000CC;
@@ -21,11 +21,14 @@
   --color-secondary: var(--secondary);
   --color-green: var(--green);
   --spacing-home-padding-y: 1.5rem;
-  --spacing-home-padding-x: 2.2rem;
+  --spacing-home-padding-x: 1.5rem;
   --spacing-home-padding-lg-y: 4rem;
-  --spacing-home-padding-lg-x: 5.2rem;
+  --spacing-home-padding-lg-x: 4rem;
+  --breakpoint-3xl: 120rem;
+  --breakpoint-4xl: 150rem;
   --font-poppins: var(--font-poppins);
   --animate-show-more-services: showMoreServices 0.35s ease-in-out;
+
 
   @keyframes showMoreServices {
     from {

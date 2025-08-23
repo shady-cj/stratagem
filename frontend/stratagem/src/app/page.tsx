@@ -5,7 +5,7 @@ import Hero from "@/components/home/hero"
 import Services from "@/components/home/services"
 export default function Home() {
   return (
-    <div className="py-home-padding-y px-home-padding-x lg:py-home-padding-lg-y lg:px-home-padding-lg-x flex flex-col gap-[4rem]">
+    <div className="py-home-padding-y px-home-padding-x xl:py-home-padding-lg-y xl:px-home-padding-lg-x flex flex-col gap-[4rem]">
         <Header />
         <Hero />
         <Services />
