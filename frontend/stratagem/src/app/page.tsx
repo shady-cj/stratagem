@@ -1,4 +1,4 @@
-// import Image from "next/image";
+import Footer from "@/components/footer"
 import Header from "@/components/header"
 import EnergyServices from "@/components/home/energy-services"
 import Hero from "@/components/home/hero"
@@ -10,6 +10,7 @@ export default function Home() {
         <Hero />
         <Services />
         <EnergyServices />
+        <Footer />
     </div>     
   )
 }

@@ -18,7 +18,7 @@ const ServiceCard = ({icon, title, desc}: {icon: StaticImageData, title: string,
                 </div>
             </div>
             <div className='absolute left-0 top-0 w-full h-full bg-secondary clip-service-card-info rounded-md' ref={clipRef} onMouseLeave={() => clipRef.current.classList.remove('clip-service-card-info-show')}>
-                <div className='h-full flex flex-col justify-between items-center py-[3rem] px-[6rem] md:px-[3rem] gap-8'>
+                <div className='h-full flex flex-col justify-between items-center py-[3rem] px-6 xl:px-[6rem] md:px-[3rem] gap-8'>
                     <h3 className='text-default text-white'>{title}</h3>
                     <p className='text-default text-center text-white'>
                         {desc}

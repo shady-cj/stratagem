@@ -33,7 +33,7 @@ const cardEntries = [
 const EnergyServices = () => {
   return (
     <ServiceWrapper title="Our Energy Services Lines">
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-[0.5rem]'>
+        <div className='grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-4 gap-6 lg:gap-[2rem]'>
             {
                 cardEntries.map((entry) => <EnergyServiceCard key={entry.title} desc={entry.desc} title={entry.title} icon={entry.icon} />)
 

@@ -4,6 +4,7 @@
   --primary: white;
   --secondary: #324683;
   --green: #A4D141;
+  --hero-button: #0FC5D3;
   --text-default:#000000CC;
   
 
@@ -20,6 +21,7 @@
   --color-text-default: var(--text-default);
   --color-secondary: var(--secondary);
   --color-green: var(--green);
+  --color-hero-button: var(--hero-button);
   --spacing-home-padding-y: 1.5rem;
   --spacing-home-padding-x: 1.5rem;
   --spacing-home-padding-lg-y: 4rem;

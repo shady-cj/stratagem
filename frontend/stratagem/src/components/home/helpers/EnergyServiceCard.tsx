@@ -13,7 +13,7 @@ const EnergyServiceCard = ({title, desc, icon}: {title: string, desc: string, ic
                 <h2 className='text-white text-center text-default mt-2 px-4'>{title}</h2>
             </div>
             <div>
-                <p className='text-white text-center text-default-normal px-36 md:px-12'>{desc}</p>
+                <p className='text-white text-center text-default-normal px-4 md:px-12 '>{desc}</p>
             </div>
         </div>
     </div>

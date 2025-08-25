@@ -50,11 +50,11 @@ export default function Header() {
             </div>
             <nav className={`hidden lg:flex ml-auto`}>
                 <ul className="flex space-x-6 mr-4 xl:mr-0">
-                    <li><a href="#" className="text-text-default hover:text-secondary hover:text-shadow-md  font-medium font-poppins">Home</a></li>
-                    <li><a href="#" className="text-text-default hover:text-secondary hover:text-shadow-md  font-medium font-poppins">About Us</a></li>
+                    <li><a href="#" className="text-text-default hover:text-secondary hover:scale-105 hover:text-shadow-md transition font-medium font-poppins">Home</a></li>
+                    <li><a href="#" className="text-text-default hover:text-secondary hover:text-shadow-md hover:scale-105  font-medium font-poppins">About Us</a></li>
                     {/* <li className="relative perspective-origin-center perspective-midrange" id="service-nav"> */}
                     <li className="relative" id="service-nav">
-                        <a href="#" className="text-text-default hover:text-secondary font-medium font-poppins flex items-center gap-x-1.5 hover:text-shadow-md " onMouseEnter={handleOpenMoreServices} onMouseLeave={handleCloseMoreServices} onClick={handleServiceClick}>Services <Image src={openMoreServices ? arrowUp : arrowDown} alt="show more services" /></a>
+                        <a href="#" className="text-text-default hover:text-secondary hover:scale-105 font-medium font-poppins flex items-center gap-x-1.5 hover:text-shadow-md " onMouseEnter={handleOpenMoreServices} onMouseLeave={handleCloseMoreServices} onClick={handleServiceClick}>Services <Image src={openMoreServices ? arrowUp : arrowDown} alt="show more services" /></a>
                         {
                             openMoreServices ? <div className="w-90 animate-show-more-services transform-3d origin-top bg-secondary absolute z-10 top-8 -left-10 flex flex-col gap-y-6 px-8 py-6 shadow-lg rounded-sm" onMouseEnter={handleOpenMoreServices} onMouseLeave={handleCloseMoreServices}>
                                 <a href="#" className="text-white font-poppins">Deep energy Expertise</a>
@@ -69,9 +69,9 @@ export default function Header() {
                             
 
                     </li>
-                    <li><a href="#" className="text-text-default hover:text-secondary font-medium font-poppins hover:text-shadow-md ">Projects</a></li>
-                    <li><a href="#" className="text-text-default hover:text-secondary font-medium font-poppins hover:text-shadow-md ">Trainings</a></li>
-                    <li><a href="#" className="text-text-default hover:text-secondary font-medium font-poppins hover:text-shadow-md ">Blog</a></li>
+                    <li><a href="#" className="text-text-default hover:text-secondary font-medium font-poppins hover:text-shadow-md hover:scale-105">Projects</a></li>
+                    <li><a href="#" className="text-text-default hover:text-secondary font-medium font-poppins hover:text-shadow-md hover:scale-105">Trainings</a></li>
+                    <li><a href="#" className="text-text-default hover:text-secondary font-medium font-poppins hover:text-shadow-md hover:scale-105">Blog</a></li>
                     {/* <li><a href="#" className="font-medium font-poppins bg-green border-0.5 rounded-[5px] border-green text-white py-[2px] px-[5px]">Consultation</a></li> */}
                 </ul>
             </nav>
