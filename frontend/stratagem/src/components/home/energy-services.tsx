@@ -14,7 +14,7 @@ const cardEntries = [
   }, 
   {
     title: "Power Service Management",
-    desc: "We offer Top Notch Energy Managed Services (Outsourced Energy Management ) to our clients by directly managing their energy system , with the intention of ensuring the establishment of best practice",
+    desc: "We offer Top Notch Energy Managed Services (Outsourced Energy Management) to our clients by directly managing their energy system , with the intention of ensuring the establishment of best practice",
     icon: whitePowerEnergyMgt
   }, 
   {

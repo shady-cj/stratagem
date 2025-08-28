@@ -16,19 +16,19 @@ const slides = [
     "image": slide1
   }, 
   {"title": "Construction Services",
-    "description": "As a team of certified energy engineers , we are committed to building and delivering value-adding energy solutions for economic growth",
+    "description": "As a team of certified energy engineers, we are committed to building and delivering value-adding energy solutions for economic growth",
     "image": slide2
   }, 
   {"title": "Procurement Services",
-    "description": "As a team of certified energy engineers , we are committed to building and delivering value-adding energy solutions for economic growth",
+    "description": "As a team of certified energy engineers, we are committed to building and delivering value-adding energy solutions for economic growth",
     "image": slide3
   }, 
   {"title": "Logistics & Haulage Services",
-    "description": "As a team of certified energy engineers , we are committed to building and delivering value-adding energy solutions for economic growth",
+    "description": "As a team of certified energy engineers, we are committed to building and delivering value-adding energy solutions for economic growth",
     "image": slide4
   }, 
   {"title": "General Engineering Services",
-    "description": "As a team of certified energy engineers , we are committed to building and delivering value-adding energy solutions for economic growth",
+    "description": "As a team of certified energy engineers, we are committed to building and delivering value-adding energy solutions for economic growth",
     "image": slide5
   }, 
 ]
@@ -79,7 +79,7 @@ const Hero = () => {
           return <React.Fragment key={index}>
             <div className={`absolute z-1 left-12 md:left-20 lg:left-30 top-5 md:top-10 flex flex-col max-w-[250px] md:max-w-[500px] lg:max-w-[700px] transition-opacity duration-500 ease-in ${active ? 'opacity-100' : 'opacity-0'}`}>
               <h1 className='text-2xl md:text-[3rem] xl:text-[4rem] font-poppins font-medium'>{slide.title}</h1>
-              <p className='mt-3 mb-3 md:mb-8 text-sm/5 md:text-base/7 xl:text-lg/8 font-normal font-pontano-sans md:max-w-[450px] xl:max-w-[530px]'>{slide.description}</p>
+              <p className='mt-3 mb-3 md:mb-8 text-xs/4 sm:text-sm/5 md:text-base/7 xl:text-lg/8 font-normal font-pontano-sans md:max-w-[450px] xl:max-w-[530px]'>{slide.description}</p>
               <a href="#" className='py-2 px-5 bg-hero-button w-fit rounded-[10px] text-xs md:text-base lg:text-xl font-medium font-poppins'>Learn More</a>
             </div>
             <Image src={slide.image} height={470} className={`${active ? 'opacity-30' : 'opacity-0'} transition-opacity duration-500 ease-in w-full h-full md:h-auto absolute lg:-top-[7rem] xl:-top-[9rem] 2xl:-top-[16.5rem] 3xl:-top-[20rem] 4xl:-top-[35rem]`} alt=""/>
